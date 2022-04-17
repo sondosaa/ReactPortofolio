@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.incrementANDdecrement{
+  border: 1px solid black;
+  width: 300px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:200px;
+  padding:3px;
+  border-radius:10px;
+  background-color:#b2c9d8;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.inc
+{
+  position: relative;
+  left:13%;
+  margin-top:50px;
+  margin-bottom:50px;
+  background-color:#ac7d69;
+  border-radius:20px;
+  padding:7px;
+  border: none;
+  
 }
+.dec{
+position: relative;
+left:30%;
+margin-bottom:50px;
+background-color:#ac7d69;
+border-radius:20px;
+  padding:7px;
+  border: none;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+}
+.count{
+  position: relative;
+  left:46%;
+
+}
+.Navbar
+{
+  display:flex;
+  justify-content:space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color:#ac7d69;;
+
+}
+.navlist
+{
+  display:flex;
+}
+.navlist li{
+  list-style:none;
+  margin:0 60px;
+  font-size:16px;
+  justify-content: space-between;
+  padding:0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navLogo{
+  margin:0 60px ;
+  font-size:20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.linkstyle{
+  text-decoration:none;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.linkstyle:hover{
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
